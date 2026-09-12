@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/foil-stamping-log-app/sw.js', { scope: '/foil-stamping-log-app/' })})}
